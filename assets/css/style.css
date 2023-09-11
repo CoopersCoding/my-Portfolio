@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg2.jpg") top center;
   background-size: cover;
 }
 
@@ -284,7 +284,7 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 922px) {
   #hero {
     background-attachment: fixed;
   }
@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
