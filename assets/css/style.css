@@ -297,9 +297,10 @@ h6 {
 
 .google-plus :hover {
   color: #fff;
-  shadow: inset 200px 0 0 0 #54b3d6;
-  background-color: #0e7db1;
+  box-shadow: inset 200px 0 0 0 #149DDD;
+  background-color: #149DDD;
   border-radius: 50%;
+  transition: all .5s;
 }
 
 @media (min-width: 922px) {
@@ -589,6 +590,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border-radius: 5%;
+  height: 225px;
 }
 
 .portfolio .portfolio-wrap::before {
